@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <form action="" name="form">
+            <input type="text" name="display" id="display" class="form-control main-bar" value="" placeholder="0">
+
+            <div class="btn-area">
+                <div class="line">
+                    <input  type="button" value="7" name="btn" class="btn btn-secondary btn-calculate">
+                    <input type="button" value="8" name="btn" class="btn btn-secondary btn-calculate">
+                    <input type="button" value="9" name="btn" class="btn btn-secondary btn-calculate">
+                    <input type="button" value="+" name="btn" class="btn btn-info btn-calculate">
+                </div>
+                <div class="line">
+                    <input type="button" value="4" name="btn" class="btn btn-secondary btn-calculate">
+                    <input type="button" value="5" name="btn" class="btn btn-secondary btn-calculate">
+                    <input type="button" value="6" name="btn" class="btn btn-secondary btn-calculate">
+                    <input type="button" value="-" name="btn" class="btn btn-info btn-calculate">
+                </div>
+                <div class="line">
+                    <input type="button" value="1" name="btn" class="btn btn-secondary btn-calculate">
+                    <input type="button" value="2" name="btn" class="btn btn-secondary btn-calculate">
+                    <input type="button" value="3" name="btn" class="btn btn-secondary btn-calculate">
+                    <input type="button" value="*" name="btn" class="btn btn-info btn-calculate">
+                </div>
+                <div class="line">
+                    <input type="button" value="0" name="btn" class="btn btn-secondary btn-calculate">
+                    <input type="button" value="00" name="btn" class="btn btn-secondary btn-calculate">
+                    <input type="button" value="." name="btn" class="btn btn-secondary btn-calculate">
+                    <input type="button" value="/" name="btn" class="btn btn-info btn-calculate">
+                </div>
+                <div class="last">
+                    <input type="button" value="C" name="btn" class="btn btn-info" id="clear">
+                    <input type="button" value="=" name="btn" class="btn btn-info" id="equel">
+                </div>
+            </div>
+        </form>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
